@@ -2,10 +2,21 @@
 
 The sample shows how to use OpenCV and [Dynamsoft Barcode Reader SDK][0] to build a Python barcode reader for macOS.
 
+## System Information
+Check macOS system version:
+
+```
+sw_vers
+```
+
+>- ProductName:    Mac OS X
+>- ProductVersion: 10.11.1
+>- BuildVersion:   15B42
+
 ## Download & Installation
 * OpenCV
 
-    ```
+    ```bash
     brew update
     brew tap homebrew/science
     brew install opencv3
@@ -16,12 +27,12 @@ The sample shows how to use OpenCV and [Dynamsoft Barcode Reader SDK][0] to buil
 1. Copy include and lib folders to the project.
 2. Build Python extension:
 
-    ```
+    ```bash
     python setup.py build install
     ```
 3. Run the app:
 
-    ```
+    ```bash
     python test.py ./Codabar.jpg
     ```
 
