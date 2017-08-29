@@ -36,5 +36,9 @@ sw_vers
     python test.py ./Codabar.jpg
     ```
 
+## Blog
+[Using OpenCV to Build Python Barcode Reader for macOS][2]
+
 [0]:http://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx 
 [1]:https://www.dynamsoft.com/Downloads/DownloadLog.aspx?server=1&product=Barcode/DBR-Libs.zip
+[2]:http://www.codepool.biz/opencv-python-barcode-reader-macos.html
